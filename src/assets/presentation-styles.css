@@ -1,22 +1,32 @@
-.background-image{
-    background-image: url("images/gengar.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    
+@font-face{
+    font-family: 'Dancing Script';
+    src: url('fonts/DancingScript-VariableFont_wght.ttf');
 }
 
-h1{
-    margin-top: 200px;
-    color: white;
+
+.background-image{
+    background-image: url("images/pareja.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.large-text{
+    font-size: 4em;
+}
+
+h3{
+    margin-top: 500px;
 }
 
 p{
-    color: white;
+    font-family: 'Dancing Script';
     margin: 0;
 }
 
 *{
-    color: white;
+    font-family: 'Dancing Script';
+    color: black;
 }
 

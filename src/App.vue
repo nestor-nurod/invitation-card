@@ -1,11 +1,16 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
+import Location from './components/Location.vue';
 import Presentation from './components/Presentation.vue';
 import TheWelcome from './components/TheWelcome.vue'
 </script>
 
 <template>
+  <audio autoplay>
+  <source src="/audio/Legendarios.mp3" type="audio/mpeg">
+</audio>
   <Presentation/>
+  <Location/>
 </template>
 
 <style scoped>
