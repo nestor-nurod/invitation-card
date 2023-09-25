@@ -1,9 +1,24 @@
 #location{
     margin: 0 auto;
-    margin-top: 20px;
 }
 
 .card{
     margin: 0 auto;
     color: black;
+}
+
+.btn-location{
+    background-color: #BC79FF;
+    color: white;
+    border: solid 1px #B871FE;
+    width: 100%;
+}
+
+.card > img {
+    border-radius: 30px;
+}
+
+.btn-location:hover{
+    background-color: #DAB5FF;
+    color: wheat;
 }

@@ -1,21 +1,26 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import DressCode from './components/DressCode.vue';
 import Location from './components/Location.vue';
 import Presentation from './components/Presentation.vue';
-import TheWelcome from './components/TheWelcome.vue'
 </script>
 
 <template>
-  <audio autoplay>
-  <source src="/audio/Legendarios.mp3" type="audio/mpeg">
-</audio>
-  <Presentation/>
-  <Location/>
+  <Presentation />
+  <Location />
+  <hr>
+  <DressCode/>
 </template>
 
 <style scoped>
 header {
   line-height: 1.5;
+}
+
+.background-music{
+  position: fixed;
+  bottom: 20px;
+  right: 20px; 
+  z-index: 999; 
 }
 
 @media (min-width: 1920px) {

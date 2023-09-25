@@ -1,6 +1,8 @@
 @font-face{
     font-family: 'Dancing Script';
     src: url('fonts/DancingScript-VariableFont_wght.ttf');
+    font-family: 'Alice';
+    src: url('fonts/Alice-Regular.ttf');
 }
 
 
@@ -26,7 +28,7 @@ p{
 }
 
 *{
-    font-family: 'Dancing Script';
+    font-family: 'Alice';
     color: black;
 }
 
