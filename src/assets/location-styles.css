@@ -2,16 +2,23 @@
     margin: 0 auto;
 }
 
-.card{
+#location .card{
+    height: 564px;
+    width: auto;
     margin: 0 auto;
     color: black;
 }
 
+
+
 .btn-location{
+    position: absolute;
+    bottom: 25px;
+    left: 1em;
     background-color: #BC79FF;
     color: white;
     border: solid 1px #B871FE;
-    width: 100%;
+    width: 90%;
 }
 
 .card > img {
@@ -22,3 +29,10 @@
     background-color: #DAB5FF;
     color: wheat;
 }
+
+@media (max-width: 768px) {
+    #location .card{
+        height: 510px;
+        width: auto;
+    }
+  }

@@ -2,13 +2,17 @@
 import DressCode from './components/DressCode.vue';
 import Location from './components/Location.vue';
 import Presentation from './components/Presentation.vue';
+import WishList from './components/WishList.vue';
+import WelcomeMessage from './components/WelcomeMessage.vue';
 </script>
 
 <template>
+  <WelcomeMessage/>
   <Presentation />
   <Location />
-  <hr>
   <DressCode/>
+  <WishList/>  
+  
 </template>
 
 <style scoped>

@@ -1,4 +1,4 @@
-@font-face{
+@font-face {
     font-family: 'Dancing Script';
     src: url('fonts/DancingScript-VariableFont_wght.ttf');
     font-family: 'Alice';
@@ -6,7 +6,7 @@
 }
 
 
-.background-image{
+.background-image {
     background-image: url("images/pareja.jpg");
     background-size: cover;
     background-attachment: fixed;
@@ -14,21 +14,50 @@
     background-repeat: no-repeat;
 }
 
-.large-text{
+.large-text {
     font-size: 4em;
 }
 
-h3{
-    margin-top: 500px;
+#presentation h3 {
+    font-size: 3em;
+    margin-top: 400px;
 }
 
-p{
+p {
     font-family: 'Dancing Script';
     margin: 0;
 }
 
-*{
+* {
     font-family: 'Alice';
     color: black;
+}
+
+#presentation h3{
+    -webkit-text-stroke: 1px black;
+    text-stroke: 1px black;
+    -webkit-text-fill-color: white;
+    text-fill-color: white;
+    color: wheat;
+}
+
+#presentation p{
+    -webkit-text-stroke: 1px black;
+    text-stroke: 1px black;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(17, 16, 16, 0.9);
+}
+
+.row .timer{
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    font-size: 3em;
+}
+
+.row .time{
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.4);
+    font-size: 20px;
 }
 

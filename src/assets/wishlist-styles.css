@@ -1,0 +1,28 @@
+.heart{
+    font-size: 3em;
+}
+
+#wishlist .card{
+    margin-bottom: 10px;
+}
+
+.img-wishlist{
+    width: 36px;
+    height: 36px;
+}
+
+.wishlist-link{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.gift-text{
+    font-size: 3em;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #A347FF;
+}

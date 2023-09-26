@@ -13,7 +13,7 @@
                 <div class="col-12">
                     <p class="large-text">Nuestra boda</p>
                 </div>
-                <div class="row">
+                <div class="row timer">
                     <div class="col-3 col-sm-3">
                         <p>100</p>
                     </div>
@@ -27,7 +27,7 @@
                         <p>12</p>
                     </div>
                 </div>
-                <div style="margin-bottom: 300px;" class="row">
+                <div style="margin-bottom: 300px;" class="row time">
                     <div class="col-3 col-sm-3">
                         <p>Dias</p>
                     </div>
