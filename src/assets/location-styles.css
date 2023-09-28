@@ -3,7 +3,7 @@
 }
 
 #location .card{
-    height: 564px;
+    height: 570px;
     width: auto;
     margin: 0 auto;
     color: black;
@@ -32,7 +32,7 @@
 
 @media (max-width: 768px) {
     #location .card{
-        height: 510px;
+        height: 560px;
         width: auto;
     }
   }

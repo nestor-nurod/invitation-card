@@ -4,6 +4,7 @@ import Location from './components/Location.vue';
 import Presentation from './components/Presentation.vue';
 import WishList from './components/WishList.vue';
 import WelcomeMessage from './components/WelcomeMessage.vue';
+import SendVideo from './components/SendVideo.vue';
 </script>
 
 <template>
@@ -11,6 +12,7 @@ import WelcomeMessage from './components/WelcomeMessage.vue';
   <Presentation />
   <Location />
   <DressCode/>
+  <SendVideo/>
   <WishList/>  
   
 </template>

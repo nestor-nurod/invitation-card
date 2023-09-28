@@ -16,7 +16,7 @@
                         <div class="card-body">
                             <p class="text-center"><b>Catedral Metropolitana de Toluca</b></p>
                             <p class="mt-2"><b>Cuándo: </b>03 de Febrero de 2024, 12:00 hrs.</p>
-                            <p><b>Dirección:</b>Av. Independencia 303, Centro, 50000 Toluca de Lerdo, Méx.</p>
+                            <p><b>Dirección: </b>Av. Independencia 303, Centro, 50000 Toluca de Lerdo, Méx.</p>
                             <div class="text-center mt-3"><a
                                     href="https://www.google.com.mx/maps/place/Catedral+de+Toluca+(San+Jos%C3%A9)/@19.2918315,-99.6598265,17z/data=!3m1!4b1!4m6!3m5!1s0x85cd89c1cd25d0df:0xd53533c114c4842b!8m2!3d19.2918265!4d-99.6572516!16s%2Fm%2F011l70n1?entry=ttu"
                                     target="_blank" class="btn btn-location">Ver mapa</a></div>
@@ -28,20 +28,20 @@
                     <div class="card p-3" style="width: 20rem;">
                         <h2 class="card-header text-center">Recepción</h2>
                         <img class="card-img-top p-3"
-                            src="../assets/images/kalipso.jpg"
+                            src="https://lh3.googleusercontent.com/p/AF1QipP4fUWp0FYATyjffOkuNzP4JdTkmtUQbuCynwZq=w1080-h608-p-no-v0"
                             alt="Recepcion">
                         <div class="card-body">
-                            <p class="text-center"><b>Salón Kalipso</b></p>
+                            <p class="text-center"><b>Salón Jardin Kasino</b></p>
                             <p class="mt-2"><b>Cuándo: </b>03 de Febrero de 2024, 18:00 hrs.</p>
-                            <p><b>Dirección:</b>Leyes de Reforma 702, Benito Juárez, 50190 Toluca de Lerdo, Méx.</p>
+                            <p><b>Dirección: </b>Del Pacífico 301, Delegación Capultitlán, 50260 Toluca de Lerdo, Méx.</p>
                             <div class="text-center mt-3"><a
-                                    href="https://www.google.com.mx/maps/place/Salon+De+Fiestas+Calypso/@19.2679601,-99.6451524,17z/data=!3m1!4b1!4m6!3m5!1s0x85cd8982f7934fef:0x12b3fd38b8a6b2e7!8m2!3d19.2679551!4d-99.6425775!16s%2Fg%2F11hb5q4zkd?entry=ttu"
+                                    href="https://www.google.com/maps/place/Salon+y+Jard%C3%ADn+Kasino/@19.256225,-99.668488,17z/data=!3m1!4b1!4m6!3m5!1s0x85cd890f0da45373:0xbe26c7a4661ee2cb!8m2!3d19.256225!4d-99.6659131!16s%2Fg%2F1tcys4tb?entry=ttu"
                                     target="_blank" class="btn btn-location">Ver mapa</a></div>
 
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-3">
+                <div class="col-md-4 col-xs-4 mb-3">
                     <div class="card p-3" style="width: 20rem;">
                         <h2 class="card-header text-center">Itinerario</h2>
                         <img class="card-img-top p-3"
@@ -53,5 +53,6 @@
                     </div>
                 </div>
             </div>
-    </div>
-</section></template>
+        </div>
+    </section>
+</template>

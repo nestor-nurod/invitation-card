@@ -9,10 +9,35 @@
     height: auto;
 }
 
+.img-dad{
+    width: 140px;
+}
+
+.img-mom{
+    width: 140px;
+}
+
+.father-name{
+    font-size: 1.4em;
+}
+
+.title-shade{
+    font-size: 2em;
+    background-color: rgba(217, 179, 255, 0.25);
+}
+
 @media (max-width: 768px) {
     .img-dress-code{
         width: 100%;
         height: auto;
+    }
+
+    .img-dad{
+        width: 100px;
+    }
+
+    .img-mom{
+        width: 100px;
     }
 
     .carousel{
