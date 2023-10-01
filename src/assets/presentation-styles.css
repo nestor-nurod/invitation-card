@@ -1,11 +1,4 @@
-@font-face {
-    font-family: 'Dancing Script';
-    src: url('fonts/DancingScript-VariableFont_wght.ttf');
-    font-family: 'Alice';
-    src: url('fonts/Alice-Regular.ttf');
-    font-family: 'Satisfy';
-    src: url('fonts/Satisfy-Regular.ttf');
-}
+
 
 
 .background-image {
@@ -43,7 +36,7 @@ p {
     color: wheat;
 }
 
-#presentation p{
+#presentation .our-w{
     -webkit-text-stroke: 1.4px black;
     text-stroke: 2px black;
     -webkit-text-fill-color: white;
@@ -61,14 +54,38 @@ p {
 
 .row .timer{
     margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(55, 55, 55, 0.4);
     font-size: 3em;
 }
 
 .row .time{
     margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(35, 35, 35, 0.6);
     font-size: 20px;
+    margin-bottom: 180px;
+}
+
+.row .time h4{
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.w-date{
+    background-color: rgba(55, 55, 55, 0.4);
+    margin: 0 auto;
+    padding: 10px;
+    width: 100%;
+}
+
+.w-date p{
+    color: white;
+    font-size: 2.2em;
+    -webkit-text-stroke: 0.4px black;
+}
+
+.w-date .w-day{
+    font-size: 3em;
 }
 
 @media (max-width: 768px) {
@@ -78,6 +95,74 @@ p {
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
+    }
+  }
+
+  @media (min-width: 769px) and (max-width: 1023px) {
+    #presentation h3 {
+        font-size: 3em;
+        margin-top: 100PX;
+    }
+
+    .w-date p{
+        color: white;
+        font-size: 2em;
+        -webkit-text-stroke: 0.8px black;
+    }
+
+    .time{
+        margin-bottom: 50px;
+    }
+  }
+
+
+  @media (min-width: 1024px) {
+    #presentation h3 {
+        font-size: 3em;
+        margin-top: 100PX;
+    }
+
+    .w-date p{
+        color: white;
+        font-size: 2em;
+        -webkit-text-stroke: 0.8px black;
+    }
+
+    .time{
+        margin-bottom: 50px;
+    }
+  }
+
+  @media (min-width: 270px) and (max-width: 300px) {
+    #presentation h3 {
+        font-size: 3em;
+        margin-top: 100PX;
+    }
+
+    .w-date p{
+        color: white;
+        font-size: 1.5em;
+        -webkit-text-stroke: 0.8px black;
+    }
+
+    .w-date .w-day{
+        font-size: 2em;
+    }
+
+    .large-text{
+        font-size: 3em;
+    }
+
+    .row .timer{
+        font-size: 2em;
+    }
+
+    .time h4{
+        font-size: 15px;
+    }
+
+    .time{
+        margin-bottom: 50px;
     }
   }
 

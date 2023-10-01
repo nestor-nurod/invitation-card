@@ -29,7 +29,7 @@ const showModal = () => {
             </div>
             <div class="row mt-4">
                 <div class="col-md-4">
-                    <div class="card">
+                    <a href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51286518" target="_blank" class="card">
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-2 logo-wishlist">
@@ -38,17 +38,30 @@ const showModal = () => {
                                         alt="Liverpool">
                                 </div>
                                 <div class="col-10">
-                                    <a class="wishlist-link" target="_blank"
-                                        href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51286518">Liverpool</a>
+                                    <p class="wishlist-link">Liverpool</p>
                                 </div>
-
                             </div>
-
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col-md-4">
-                    <div class="card">
+                    <a target="_blank" href="https://www.sears.com.mx/Mesa-de-Regalos/96996/boda" class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-2 logo-wishlist">
+                                    <img class="img-wishlist" src="https://cdn.lovesavingsgroup.com/logos/sears-mx.jpg"
+                                        alt="Liverpool">
+                                </div>
+                                <div class="col-10">
+                                    <p class="wishlist-link">Sears</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a target="_blank" href="https://www.amazon.com.mx/hz/wishlist/ls/DBE5WAZKPGGQ/ref=nav_wishlist_lists_3"
+                        class="card">
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-2 logo-wishlist">
@@ -57,17 +70,14 @@ const showModal = () => {
                                         alt="Liverpool">
                                 </div>
                                 <div class="col-10">
-                                    <a class="wishlist-link" target="_blank"
-                                        href="https://www.amazon.com.mx/hz/wishlist/ls/DBE5WAZKPGGQ/ref=nav_wishlist_lists_3">Amazon</a>
+                                    <p class="wishlist-link">Amazon</p>
                                 </div>
-
                             </div>
-
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col-md-4">
-                    <div  @click="showModal" class="card">
+                    <div @click="showModal" class="card" id="bank">
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-2 logo-wishlist">
@@ -87,11 +97,14 @@ const showModal = () => {
                 <p class="text-center large-text">Datos Bancarios</p>
                 <p>Nombre: </p>
                 <p>Clabe: 1234567890123456</p>
-                <p>Banco: <img src="https://icons.veryicon.com/png/o/business/bank-logo-2/bank-hsbc.png" alt="HSBC" class="img-bank"> HSBC </p>
+                <p>Banco: <img src="https://icons.veryicon.com/png/o/business/bank-logo-2/bank-hsbc.png" alt="HSBC"
+                        class="img-bank"> HSBC </p>
                 <hr>
                 <p>Nombre: </p>
                 <p>Clabe: 1234567890123456</p>
-                <p>Banco: <img class="img-bank" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Logo_de_Citibanamex_%28sin_texto%29.svg/1200px-Logo_de_Citibanamex_%28sin_texto%29.svg.png" alt="Banamex"> Banamex</p>
+                <p>Banco: <img class="img-bank"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Logo_de_Citibanamex_%28sin_texto%29.svg/1200px-Logo_de_Citibanamex_%28sin_texto%29.svg.png"
+                        alt="Banamex"> Banamex</p>
                 <button @click="closeModal" class="btn btn-close-modal">Cerrar</button>
             </div>
         </div>

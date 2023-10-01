@@ -49,3 +49,11 @@ footer{
 .img-bank{
     width: 19px;
 }
+
+#bank{
+    cursor: pointer;
+}
+
+#wishlist .card:hover{
+    background-color: #D8B8F9;
+}

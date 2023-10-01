@@ -38,14 +38,28 @@ onMounted(() => {
                 </div>
 
                 <div class="col-12">
-                    <p class="large-text">Nuestra boda</p>
+                    <p class="large-text our-w">Nuestra boda</p>
+                </div>
+                <div class="row text-center w-date">
+                    <div class="col-4">
+                        <p>Sábado</p>
+                    </div>
+                    <div class="col-4">
+                        <p class="w-day">| 03 |</p>
+                    </div>
+                    <div class="col-4">
+                        <p>Febrero</p>
+                    </div>
+                    <div class="col-12 text-center">
+                        <p>2024</p>
+                    </div>
                 </div>
                 <div class="row timer">
                     <div class="col-3 col-sm-3">
                         <p>{{ days }}</p>
                     </div>
                     <div class="col-3 col-sm-3">
-                        <p>{{hours}}</p>
+                        <p>{{ hours }}</p>
                     </div>
                     <div class="col-3 col-sm-3">
                         <p>{{ minutes }}</p>
@@ -54,7 +68,7 @@ onMounted(() => {
                         <p>{{ seconds }}</p>
                     </div>
                 </div>
-                <div style="margin-bottom: 300px;" class="row time">
+                <div class="row time">
                     <div class="col-3 col-sm-3">
                         <h4>Dias</h4>
                     </div>
@@ -69,7 +83,6 @@ onMounted(() => {
                     </div>
                 </div>
 
-            </div>
         </div>
-    </section>
-</template>
+    </div>
+</section></template>
