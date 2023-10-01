@@ -31,10 +31,10 @@ onMounted(() => {
 
 <template>
     <section id="presentation" class="background-image">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row text-center">
-                <div class="col-12">
-                    <h3>Karen & Jair</h3>
+                <div class="col-12 names">
+                    <h3 class="names">Karen & Jair</h3>
                 </div>
 
                 <div class="col-12">

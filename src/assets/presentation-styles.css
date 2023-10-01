@@ -1,6 +1,3 @@
-
-
-
 .background-image {
     background-image: url("images/principal.jpeg");
     background-size: contain;
@@ -16,6 +13,10 @@
 #presentation h3 {
     font-size: 3em;
     margin-top: 400px;
+}
+
+.names{
+    margin-top: 350px;
 }
 
 p {
@@ -54,13 +55,13 @@ p {
 
 .row .timer{
     margin: 0 auto;
-    background-color: rgba(55, 55, 55, 0.4);
+    background-color: rgba(140, 79, 255, 0.3);
     font-size: 3em;
 }
 
 .row .time{
     margin: 0 auto;
-    background-color: rgba(35, 35, 35, 0.6);
+    background-color: rgba(108, 29, 255, 0.6);
     font-size: 20px;
     margin-bottom: 180px;
 }
@@ -72,7 +73,9 @@ p {
 }
 
 .w-date{
-    background-color: rgba(55, 55, 55, 0.4);
+    border-top: 1px solid #610CFF;
+    border-bottom: 1px solid #610CFF;
+    background-color: rgba(140, 79, 255, 0.4);
     margin: 0 auto;
     padding: 10px;
     width: 100%;
@@ -96,6 +99,10 @@ p {
         background-position: center;
         background-repeat: no-repeat;
     }
+
+    .names{
+        margin-top: 0px;
+    }
   }
 
   @media (min-width: 769px) and (max-width: 1023px) {
@@ -112,6 +119,10 @@ p {
 
     .time{
         margin-bottom: 50px;
+    }
+
+    .names{
+        margin-top: 300px;
     }
   }
 
@@ -163,6 +174,10 @@ p {
 
     .time{
         margin-bottom: 50px;
+    }
+
+    .names{
+        margin-top: 200px;
     }
   }
 
