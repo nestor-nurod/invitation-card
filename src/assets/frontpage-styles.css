@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,500;0,700;0,800;0,900;1,600;1,700;1,800;1,900&display=swap');
+
+
+#frontPage .img-front .img-front-page{
+    -webkit-mask-image: url(images/circuloImagen.svg);
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center center;
+    -webkit-mask-repeat: no-repeat;
+    width: 21em;
+}
+
+.info{
+    margin-top: 20px;
+}
+
+.names{
+    margin: 0;
+    font-size: 3em;
+}
+
+.date{
+    padding: 0em 2em 0em 2em;
+}
+
+.date .col-4{
+    padding: 0;
+}
+
+.date .w-day{
+    font-size: 2.4em;
+}
+
+.date p{
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: #745660;
+    font-size: 2em;
+}
+
+.separator{
+    display: flex;
+    margin: 2em auto;
+    width: 6em;
+}
+
+#frontPage .info > p,h3,h4{
+    color: #745660;
+}
+
+.front-background{
+    background-image: url(images/fondochido.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.info-background{
+    background-image: url(images/fondorosa.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@media (min-width: 280px) and  (max-width: 320px) {
+    #frontPage .info img{
+        width: 15rem;
+        height: auto;
+    }
+}

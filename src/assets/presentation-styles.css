@@ -6,6 +6,14 @@
     background-repeat: no-repeat;
 }
 
+body{
+    background-image: url(images/fondorosa.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .large-text {
     font-size: 4.5em;
 }
@@ -27,6 +35,10 @@ p {
 * {
     font-family: 'Satisfy';
     color: black;
+}
+
+.medium-text{
+    font-size: 2em;
 }
 
 #presentation h3{
