@@ -57,20 +57,6 @@ p {
     color: wheat;
 }
 
-#presentation .timer p{
-    -webkit-text-stroke: 0.1px black;
-    text-stroke: 0.1px white;
-    color: white;
-    font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(17, 16, 16, 0.9);
-}
-
-.row .timer{
-    margin: 0 auto;
-    background-color: rgba(140, 79, 255, 0.3);
-    font-size: 3em;
-}
-
 .row .time{
     margin: 0 auto;
     background-color: rgba(108, 29, 255, 0.6);
@@ -174,10 +160,6 @@ p {
 
     .large-text{
         font-size: 3em;
-    }
-
-    .row .timer{
-        font-size: 2em;
     }
 
     .time h4{

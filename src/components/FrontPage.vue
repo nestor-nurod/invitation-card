@@ -41,25 +41,14 @@ onMounted(() => {
         <div class="container-fluid">
             <div class="row text-center info-background">
             <div class="info">
-                <p class="names">Karen y Jair</p>
-                <div class="row text-center date">
-                    <div class="col-4">
-                        <p>Sábado</p>
-                    </div>
-                    <div class="col-4">
-                        <p class="w-day">| 03 |</p>
-                    </div>
-                    <div class="col-4">
-                        <p>Febrero</p>
-                    </div>
-                    <div class="col-12 text-center">
-                        <p class="year">2024</p>
-                    </div>
-                </div>
                 <div class="row">
                     <img class="separator" src="../assets/images/testsvg.svg" alt="separator">
                 </div>
-                <div class="row text-center">
+                <p class="names">Karen y Jair</p>
+                <div class="row">
+                    <img class="separator" src="../assets/images/testsvg.svg" alt="separator">
+                </div>
+                <div class="row text-center timer">
                     <div class="col-3 col-sm-3">
                         <p>{{ days }}</p>
                     </div>
@@ -73,7 +62,7 @@ onMounted(() => {
                         <p>{{ seconds }}</p>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row date-labels">
                     <div class="col-3 col-sm-3">
                         <h4>Dias</h4>
                     </div>

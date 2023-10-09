@@ -6,6 +6,7 @@ import './assets/wishlist-styles.css'
 import './assets/video-styles.css'
 import './assets/welcome-styles.css'
 import './assets/frontpage-styles.css'
+import './assets/invitation-styles.css'
 
 import { createApp } from 'vue'
 import App from './App.vue'

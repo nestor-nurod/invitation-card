@@ -15,35 +15,7 @@
                             <img class="img-dress-code" src="../assets/images/codigoVestimenta.jpg"
                                 alt="Código Vestimenta">
                         </div>
-                        <div class="card-header">
-                            <h2 class="text-center">Papás</h2>
-                        </div>
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-6">
-                                    <h5 class="title-shade">Novia</h5>
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <img class="img-mom" src="https://img.icons8.com/color/96/woman-with-baby.png" alt="woman-with-baby"/>
-                                            <p class="father-name">Irma Hurtado Bastida</p>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <img class="img-dad" src="https://img.icons8.com/external-photo3ideastudio-flat-photo3ideastudio/64/external-dad-avatar-photo3ideastudio-flat-photo3ideastudio.png" alt="external-dad-avatar-photo3ideastudio-flat-photo3ideastudio"/>
-                                            <p class="father-name">José Antonio Villanueva Rodríguez</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <h5 class="title-shade">Novio</h5>
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <img class="img-mom" src="https://img.icons8.com/color/96/woman-with-baby.png" alt="woman-with-baby"/>
-                                            <p class="father-name">Martha Rodríguez González</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        
                         <div class="card-header">
                             <h2 class="text-center">Nosotros</h2>
                         </div>

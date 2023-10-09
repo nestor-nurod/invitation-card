@@ -11,7 +11,7 @@
                     <div class="card p-3" >
                         <h2 class="card-header text-center">Ceremonia Religiosa</h2>
                         <img class="card-img-top p-3"
-                            src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Catedral_de_Toluca_-_panoramio.jpg"
+                            src="../assets/images/catedralToluca.jpg"
                             alt="Catedral Toluca">
                         <div class="card-body">
                             <p class="text-center"><b>Catedral Metropolitana de Toluca</b></p>

@@ -1,0 +1,174 @@
+.invitation-background {
+    /*background-image: url(images/fondoInvitacion.jpg);*/
+    /*background-image: url(images/fondofloralvertical.jpg);*/
+    /*background-image: url(images/fondofloral.jpg);*/
+    /*background-image: url(images/fondoalternativo.jpg);*/
+    
+    background-image: url(images/fondofloralC.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    height: 100vh;
+}
+
+#invitation ul{
+   list-style-type: none;
+}
+
+.fiance{
+    color: #B8860B;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 0;
+}
+
+.parents h5,h6,li{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.parents li{
+    font-size: 1.4em;
+    color: grey;
+}
+
+.godparents p{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: #B8860B;
+    font-size: 1.3em;
+}
+
+.godparents li{
+    color: grey;
+    font-size: 1.4em;
+}
+
+.parents h5{
+    margin-top: 1em;
+    margin-bottom: 1.8em;
+    color: #434343;
+    font-weight: bold;
+}
+
+.wedding-date p{
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+}
+
+.wedding-date span{
+    font-family: 'Montserrat', sans-serif;
+    color: #B8860B; 
+    font-style: normal;
+    font-weight: 300;
+}
+
+#invitation .w-day {
+    font-size: 3em;
+    font-weight: 300;
+}
+
+.wedding-header h1{
+    color: #B8860B;
+    font-size: 4em;
+}
+
+.wedding-header p{
+    color: grey;
+    font-size: 1.8em;
+}
+
+.wedding-message{
+    color: #B8860B;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 1em 0;
+}
+
+
+.invitation-content {
+    padding-top: 3em;
+}
+
+.wedding-date{
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    padding: 0em 15em;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    
+}
+
+@media (min-width: 280px) and (max-width: 320px) {
+    
+}
+
+@media (min-width: 321px) and (max-width: 767px) {
+    .invitation-background {
+        /*background-image: url(images/fondoInvitacion.jpg);*/
+        /*background-image: url(images/fondoalternativo.jpg);*/
+        /*background-image: url(images/fondofloralvertical.jpg);*/
+        background-image: url(images/fondofloralC.jpg);
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+        opacity: 0.8;
+        height: 100vh;
+    }
+
+    .wedding-date{
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .wedding-date p{
+        font-size: 1em;
+    }
+
+    .wedding-date{
+        margin-top: 1.2em;
+        margin-bottom: 1.2em;
+        padding: 0em 0em;
+    }
+
+    .wedding-header h1{
+        font-size: 3em;
+    }
+    
+    .wedding-header p{
+        font-size: 1.4em;
+    }
+
+    #invitation .w-day {
+        font-size: 2.2em;
+        font-weight: 300;
+    }
+
+    .wedding-message{
+        font-size: 1.2em;
+        margin: 1em 0;
+    }
+
+    .parents h5{
+        font-size: 1em;
+        margin-top: 1em;
+        margin-bottom: 1.4em;
+    }
+
+    .parents li{
+        font-size: 1em;
+    }
+
+    .godparents p{
+        font-size: 1.1em;
+    }
+    
+    .godparents li{
+        color: grey;
+        font-size: 1em;
+    }
+    
+}
+

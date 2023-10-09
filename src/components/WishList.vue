@@ -95,10 +95,10 @@ const showModal = () => {
         <div v-if="modalOpen" class="bank-data">
             <div class="modal-content">
                 <p class="text-center large-text">Datos Bancarios</p>
-                <p>Nombre: </p>
-                <p>Clabe: 1234567890123456</p>
-                <p>Banco: <img src="https://icons.veryicon.com/png/o/business/bank-logo-2/bank-hsbc.png" alt="HSBC"
-                        class="img-bank"> HSBC </p>
+                <p>Nombre: RODRIGUEZ GONZALEZ JAIR</p>
+                <p>Clabe: 044420256032514145</p>
+                <p>Banco: <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/scotiabank_logo_icon_170755.png" alt="ScotiaBank"
+                        class="img-bank"> ScotiaBank </p>
                 <hr>
                 <p>Nombre: </p>
                 <p>Clabe: 1234567890123456</p>

@@ -1,15 +1,16 @@
 <script setup>
 import DressCode from './components/DressCode.vue';
 import Location from './components/Location.vue';
-import Presentation from './components/Presentation.vue';
 import WishList from './components/WishList.vue';
 import WelcomeMessage from './components/WelcomeMessage.vue';
 import SendVideo from './components/SendVideo.vue';
 import FrontPage from './components/FrontPage.vue';
+import Invitation from './components/Invitation.vue'
 </script>
 
 <template>
   <WelcomeMessage/>
+  <Invitation/>
   <FrontPage/>
   <Location />
   <DressCode/>
