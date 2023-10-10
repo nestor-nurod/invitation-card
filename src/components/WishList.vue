@@ -101,7 +101,7 @@ const showModal = () => {
                         class="img-bank"> ScotiaBank </p>
                 <hr>
                 <p>Nombre: </p>
-                <p>Clabe: 1234567890123456</p>
+                <p>Clabe: 4152 3134 36</p>
                 <p>Banco: <img class="img-bank"
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Logo_de_Citibanamex_%28sin_texto%29.svg/1200px-Logo_de_Citibanamex_%28sin_texto%29.svg.png"
                         alt="Banamex"> Banamex</p>
