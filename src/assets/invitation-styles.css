@@ -19,7 +19,7 @@
 .fiance {
     color: #B8860B;
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1.1em;
     margin: 0;
 }
 
@@ -30,7 +30,7 @@ li {
 }
 
 .parents li {
-    font-size: 1.4em;
+    font-size: 1em;
     color: grey;
 }
 
@@ -38,12 +38,12 @@ li {
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     color: #B8860B;
-    font-size: 1.3em;
+    font-size: 1em;
 }
 
 .godparents li {
     color: grey;
-    font-size: 1.4em;
+    font-size: 1em;
 }
 
 .parents h5 {
@@ -51,12 +51,13 @@ li {
     margin-bottom: 1.8em;
     color: #434343;
     font-weight: bold;
+    font-size: 1.1em;
 }
 
 .wedding-date p {
     color: grey;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 .wedding-date span {
@@ -67,90 +68,110 @@ li {
 }
 
 #invitation .w-day {
-    font-size: 3em;
+    font-size: 2.2em;
     font-weight: 300;
 }
 
 .wedding-header h1 {
     color: #B8860B;
-    font-size: 4em;
+    font-size: 3.5em;
 }
 
 .wedding-header p {
     color: grey;
-    font-size: 1.8em;
+    font-size: 1.5em;
 }
 
 .wedding-message {
     color: #B8860B;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1.4em;
     margin: 1em 0;
 }
 
 
 .invitation-content {
-    padding-top: 3em;
+    padding-top: 2em;
 }
 
 .wedding-date {
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
     padding: 0em 15em;
 }
 
-@media (min-width:1024px) {
-    .wedding-date {
-        margin-top: 1.3em;
-        margin-bottom: 1.3em;
-    }
 
-    .wedding-date p {
-        font-size: 1.2em;
+@media (max-width:1336px) {
+    .invitation-background {
+        /*background-image: url(images/fondoInvitacion.jpg);*/
+        /*background-image: url(images/fondofloralvertical.jpg);*/
+        /*background-image: url(images/fondofloral.jpg);*/
+        /*background-image: url(images/fondoalternativo.jpg);*/
+    
+        background-image: url(images/fondofloralC.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        opacity: 0.8;
+        height: 100vh;
     }
-
-    .wedding-date {
-        margin-top: 1.4em;
-        margin-bottom: 1.4em;
-        padding: 0em 0em;
+    
+    .fiance {
+        font-size: 1em;
+        margin: 0;
     }
-
-    .wedding-header h1 {
-        font-size: 4em;
-    }
-
-    .wedding-header p {
-        font-size: 1.6em;
-    }
-
-    #invitation .w-day {
-        font-size: 2.5em;
-        font-weight: 300;
-    }
-
-    .wedding-message {
-        font-size: 1.4em;
-        margin: 1.2em 0;
-    }
-
-    .parents h5 {
-        font-size: 1.2em;
-        margin-top: 1.2em;
-        margin-bottom: 1.4em;
-    }
-
+    
     .parents li {
         font-size: 1em;
     }
-
+    
     .godparents p {
-        font-size: 1.1em;
+        font-size: 1em;
     }
-
+    
     .godparents li {
         font-size: 1em;
     }
+    
+    .parents h5 {
+        margin-top: 1em;
+        margin-bottom: 1.4em;
+        font-size: 1em;
+    }
+    
+    .wedding-date p {
+        font-size: 1em;
+    }
+    
+    #invitation .w-day {
+        font-size: 2em;
+    }
+    
+    .wedding-header h1 {
+        font-size: 2.7em;
+    }
+    
+    .wedding-header p {
+        font-size: 1.2em;
+    }
+    
+    .wedding-message {
+        font-size: 1.2em;
+        margin: 0.7em 0;
+    }
+    
+    
+    .invitation-content {
+        padding-top: 2em;
+    }
+    
+    .wedding-date {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        padding: 0em 15em;
+    }
 }
+
 
 @media (min-width: 768px) and (max-width: 1023px) {
     .wedding-date {
@@ -488,10 +509,6 @@ li {
 
 @media (max-width: 320px){
 
-    .invitation-content {
-        padding-top: 2em;
-    }
-
     .fiance {
         font-size: 1em;
         margin: 0;
@@ -517,7 +534,7 @@ li {
     }
 
     .wedding-header p {
-        font-size: 1.1em;
+        font-size: 1em;
     }
 
     #invitation .w-day {
@@ -544,7 +561,7 @@ li {
     }
 
     .godparents p {
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
 
     .godparents li {
@@ -552,6 +569,6 @@ li {
     }
 
     .invitation-content{
-        padding: 1em 0;
+        padding: 0.8em 0;
     }
 }
