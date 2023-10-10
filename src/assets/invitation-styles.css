@@ -335,11 +335,11 @@
 @media (min-width: 321px) and (max-height:770px){
 
     .invitation-content {
-        padding-top: 1.5em;
+        padding-top: 1.2em;
     }
 
     .wedding-date p{
-        font-size: 1em;
+        font-size: 0.9em;
     }
 
     .wedding-date{
@@ -349,7 +349,7 @@
     }
 
     .wedding-header h1{
-        font-size: 2.5em;
+        font-size: 2.3em;
     }
     
     .wedding-header p{
@@ -357,12 +357,12 @@
     }
 
     #invitation .w-day {
-        font-size: 2em;
+        font-size: 1.8em;
         font-weight: 300;
     }
 
     .wedding-message{
-        font-size: 1.1em;
+        font-size: 1em;
     }
 
     .parents h5{
@@ -372,14 +372,18 @@
     }
 
     .parents li{
-        font-size: 1em;
+        font-size: 0.9em;
     }
 
     .godparents p{
-        font-size: 1.1em;
+        font-size: 1em;
     }
     
     .godparents li{
-        font-size: 1em;
+        font-size: 0.9em;
+    }
+
+    .fiance{
+        font-size: 1.1em;
     }
 }
