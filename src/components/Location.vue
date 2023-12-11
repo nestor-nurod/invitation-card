@@ -43,7 +43,7 @@
                     <div class="card p-3">
                         <h2 class="card-header text-center">Programa de la Boda</h2>
                         <img class="card-img-top p-3 img-itinerary"
-                            src="../assets/images/Programa de boda.png"
+                            src="../assets/images/Programaboda.png"
                             alt="Itinerario">
                         <div class="card-body">
 
