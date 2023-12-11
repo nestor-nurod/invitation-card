@@ -60,23 +60,6 @@ const showModal = () => {
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a target="_blank" href="https://www.amazon.com.mx/hz/wishlist/ls/DBE5WAZKPGGQ/ref=nav_wishlist_lists_3"
-                        class="card">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-2 logo-wishlist">
-                                    <img class="img-wishlist"
-                                        src="https://i.pinimg.com/originals/01/ca/da/01cada77a0a7d326d85b7969fe26a728.jpg"
-                                        alt="Liverpool">
-                                </div>
-                                <div class="col-10">
-                                    <p class="wishlist-link">Amazon</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4">
                     <div @click="showModal" class="card" id="bank">
                         <div class="card-body">
                             <div class="row">
@@ -93,18 +76,18 @@ const showModal = () => {
             </div>
         </div>
         <div v-if="modalOpen" class="bank-data">
-            <div class="modal-content">
-                <p class="text-center large-text">Datos Bancarios</p>
-                <p>Nombre: RODRIGUEZ GONZALEZ JAIR</p>
-                <p>Clabe: 044420256032514145</p>
+            <div class="modal-wishlist-content">
+                <p class="text-center large-text mb-3">Datos Bancarios</p>
+                <p>Rodríguez González Jair</p>
+                <p>CLABE: 044420256032514145</p>
                 <p>Banco: <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/scotiabank_logo_icon_170755.png" alt="ScotiaBank"
                         class="img-bank"> ScotiaBank </p>
                 <hr>
-                <p>Nombre: </p>
-                <p>Clabe: 4152 3134 36</p>
+                <p>Ana Karen Villanueva Hurtado</p>
+                <p>Tarjeta: 4152 3134 3646 5153</p>
                 <p>Banco: <img class="img-bank"
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Logo_de_Citibanamex_%28sin_texto%29.svg/1200px-Logo_de_Citibanamex_%28sin_texto%29.svg.png"
-                        alt="Banamex"> Banamex</p>
+                        src="https://www.bbva.com/wp-content/uploads/2019/07/bbva-logo-nuevo-cuadrado-1024x1024.png"
+                        alt="Banamex"> BBVA</p>
                 <button @click="closeModal" class="btn btn-close-modal">Cerrar</button>
             </div>
         </div>

@@ -5,8 +5,12 @@
 
 .carousel{
     margin: 0 auto;
-    width: 500px;
+    width: 420px;
     height: auto;
+}
+
+.carousel-item img{
+    height: 400px;
 }
 
 .img-dad{

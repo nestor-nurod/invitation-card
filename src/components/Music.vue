@@ -7,5 +7,5 @@
         <source src="/audio/Legendarios.mp3" type="audio/mpeg">
         Tu navegador no soporta la reproducción de audio.
     </audio>
-    <button class="btn btn-primary background-music">Presioname</button>
+    <button class="btn btn-primary btn-music">Presioname</button>
 </template>

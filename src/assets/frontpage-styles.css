@@ -54,11 +54,7 @@
 }
 
 .info-background{
-    background-image: url(images/fondorosa.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+    background-color: #dcd4d1;
 }
 
 @media (min-width: 280px) and  (max-width: 320px) {

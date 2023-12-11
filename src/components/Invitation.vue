@@ -31,24 +31,23 @@
                 </div>
                 <div class="row text-center parents">
                     <h5>CON LA BENDICIÓN DE DIOS Y NUESTROS PADRES</h5>
-                    <h6 class="fiance">NOVIO</h6>
-                    <ul>
-                        <li>Martha Rodríguez González</li>
-                    </ul>
                     <h6 class="fiance">NOVIA</h6>
                     <ul>
                         <li>José Antonio Villanueva Rodríguez</li>
                         <li>Irma Hurtado Bastida</li>
                     </ul>
+                    <h6 class="fiance">NOVIO</h6>
+                    <ul>
+                        <li>Martha Rodríguez González</li>
+                    </ul>
                 </div>
                 <div class="row text-center godparents">
                     <p>CON EL APOYO DE NUESTROS PADRINOS</p>
                     <ul>
-                        <li>Padrino 1</li>
-                        <li>Padrino 2</li>
-                        <li>Padrino 3</li>
-                        <li>Padrino 4</li>
-                        <li>Padrino 5</li>
+                        <li>Eduardo Rodríguez González</li>
+                        <li>Irma Nuñez Sánchez</li>
+                        <li>Juan Alfredo Rodríguez González</li>
+                        <li>Susana Torres Nepomuceno</li>
                     </ul>
                 </div>
             </div>

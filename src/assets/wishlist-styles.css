@@ -2,6 +2,10 @@
     font-size: 3em;
 }
 
+.card{
+    background-color: #FAF4FF;
+}
+
 #wishlist .card{
     margin-bottom: 10px;
 }
@@ -46,6 +50,10 @@ footer{
     justify-content: center;
 }
 
+.bank-data p{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .img-bank{
     width: 19px;
 }
@@ -56,4 +64,36 @@ footer{
 
 #wishlist .card:hover{
     background-color: #D8B8F9;
+}
+
+.modal-wishlist-content {
+    background-color: #fff;
+    padding: 50px;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    position: relative;
+    border-radius: 10px;
+    animation: slideDown 0.5s ease forwards;
+}
+
+.bank-data > .modal-wishlist-content {
+    background-color: #fff;
+    padding: 50px;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    position: relative;
+    border-radius: 10px;
+    animation: slideUp 0.5s ease forwards;
+}
+
+@media (max-width: 768px) {
+    .modal-wishlist-content>p {
+        font-size: 0.85em;
+    }
+
+    .modal-wishlist-content .large-text {
+        font-size: 1.5em;
+    }
 }

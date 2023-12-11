@@ -34,53 +34,53 @@ onMounted(() => {
         <div class="container-fluid front-background">
             <div class="row text-center">
                 <div class="img-front mt-5">
-                    <img class="img-front-page mb-5" src="../assets/images/fotocuadrada.png" alt="">
+                    <img class="img-front-page mb-5" src="../assets/images/fotoPresentacion.png" alt="">
                 </div>
             </div>
         </div>
         <div class="container-fluid">
             <div class="row text-center info-background">
-            <div class="info">
-                <div class="row">
-                    <img class="separator" src="../assets/images/testsvg.svg" alt="separator">
-                </div>
-                <p class="names">Karen y Jair</p>
-                <div class="row">
-                    <img class="separator" src="../assets/images/testsvg.svg" alt="separator">
-                </div>
-                <div class="row text-center timer">
-                    <div class="col-3 col-sm-3">
-                        <p>{{ days }}</p>
+                <div class="info">
+                    <div class="row">
+                        <img class="separator" src="../assets/images/testsvg.svg" alt="separator">
                     </div>
-                    <div class="col-3 col-sm-3">
-                        <p>{{ hours }}</p>
+                    <p class="names">Karen & Jair</p>
+                    <div class="row">
+                        <img class="separator" src="../assets/images/testsvg.svg" alt="separator">
                     </div>
-                    <div class="col-3 col-sm-3">
-                        <p>{{ minutes }}</p>
+                    <div class="row text-center timer">
+                        <div class="col-3 col-sm-3">
+                            <p>{{ days }}</p>
+                        </div>
+                        <div class="col-3 col-sm-3">
+                            <p>{{ hours }}</p>
+                        </div>
+                        <div class="col-3 col-sm-3">
+                            <p>{{ minutes }}</p>
+                        </div>
+                        <div class="col-3 col-sm-3">
+                            <p>{{ seconds }}</p>
+                        </div>
                     </div>
-                    <div class="col-3 col-sm-3">
-                        <p>{{ seconds }}</p>
+                    <div class="row date-labels">
+                        <div class="col-3 col-sm-3">
+                            <h4>Dias</h4>
+                        </div>
+                        <div class="col-3 col-sm-3">
+                            <h4>Horas</h4>
+                        </div>
+                        <div class="col-3 col-sm-3">
+                            <h4>Minutos</h4>
+                        </div>
+                        <div class="col-3 col-sm-3">
+                            <h4>Segundos</h4>
+                        </div>
                     </div>
-                </div>
-                <div class="row date-labels">
-                    <div class="col-3 col-sm-3">
-                        <h4>Dias</h4>
+                    <div class="row">
+                        <img class="separator" src="../assets/images/testsvg.svg" alt="separator">
                     </div>
-                    <div class="col-3 col-sm-3">
-                        <h4>Horas</h4>
-                    </div>
-                    <div class="col-3 col-sm-3">
-                        <h4>Minutos</h4>
-                    </div>
-                    <div class="col-3 col-sm-3">
-                        <h4>Segundos</h4>
-                    </div>
-                </div>
-                <div class="row">
-                    <img class="separator" src="../assets/images/testsvg.svg" alt="separator">
                 </div>
             </div>
-        </div>
         </div>
     </section>
 </template>
